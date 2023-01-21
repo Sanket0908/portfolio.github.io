@@ -9,8 +9,8 @@
 body {
 
 
-  background-color: #2b2d42;
-  /* background-color: #120044; */
+  /* background-color: #2b2d42; */
+  background-color: #120044;
   /* background: url(images/Grd.png); */
 }
 html{
@@ -531,38 +531,39 @@ cursor: pointer;
    }
    .header h2{
     font-size: 25px;
-       margin: 20px 30px;
+    margin: 20px 30px;
    }
    .navbar{
-       position: absolute;
+       position:absolute;
        top: 100%;
        right: -100%;
        width:270px;
        height: 40vh;
-       background: #120044;
+       background: #fff;
        display: flex;
        flex-direction:column;
        justify-content:10px;
        border-radius: 15px;
        transition: all 0.5s;
+       margin-top: -40rem;
    }
    .navbar a{
        display: block;
-       color:#fff;
+       font-weight: 500;
+       color: #120044;
        margin: 12px 0px;
        padding: 0px 25px;
        transition: all .50 ease;
    }
    .navbar a:hover{
        color: rgb(160, 158, 158);
+       border-bottom: none;
    }
    .navbar.open{
        right: 2%;
    }
 
    /* home-paragraph */
+   
 
-  .home-paragraph{
-    
-  }
 }
