@@ -95,19 +95,24 @@ html{
 .resume {
   margin-top: 50px;
 }
-.resume a {
-  text-decoration: none;
+.resume  {
+  padding: 10px 25px;
+  background-color: transparent;
   color: #fff;
   border: 1px solid #fff;
-  padding: 5px 10px;
-  transition: all 1s ease-in-out;
+
 }
-.resume a:hover {
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 1px solid;
-  padding: 5px 5px;
+.resume a{
+  color: #fff;
+}
+.resume a:hover{
+  color: #120044;
+
+}
+.resume:hover {
+  color: #120044;
+  background-color: #fff;
+ 
 }
 
 /* SOCIAL MEDIA ICONS */
